@@ -1,7 +1,5 @@
 
-// ============================================
-// AdminDTO spécialisé (optionnel)
-// ============================================
+
 package com.facturation.facture.dto;
 
 import com.facturation.facture.model.User;
