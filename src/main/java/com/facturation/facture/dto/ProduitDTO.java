@@ -38,11 +38,11 @@ public class ProduitDTO {
     private LocalDateTime dateCreation;
     private LocalDateTime dateModification;
 
-    // ID de la catégorie pour éviter la circularité
+    // ID de la catégorie 
     @NotNull(message = "La catégorie est obligatoire")
     private Long categorieId;
 
-    // Nom de la catégorie pour l'affichage (optionnel)
+    // Nom de la catégorie pour l'affichage 
     private String categorieNom;
 
     // Constructeurs
