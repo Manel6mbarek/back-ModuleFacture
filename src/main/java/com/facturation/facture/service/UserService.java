@@ -1,6 +1,4 @@
-// ============================================
-// SERVICE UPDATED
-// ============================================
+
         package com.facturation.facture.service;
 
 import com.facturation.facture.model.User;
@@ -25,7 +23,6 @@ public class UserService {
         this.userRepository = userRepository;
     }
 
-    // ====================== MÉTHODES CLIENTS ======================
 
     /**
      * Sauvegarder un nouveau client
@@ -168,7 +165,7 @@ public class UserService {
         return userRepository.findRecentClients();
     }
 
-    // ====================== MÉTHODES GÉNÉRIQUES UTILISATEURS ======================
+
 
     /**
      * Créer un utilisateur (admin ou client)
@@ -219,7 +216,7 @@ public class UserService {
         return userRepository.save(user);
     }
 
-    // ====================== MÉTHODES PRIVÉES ======================
+//--------------------------
 
     /**
      * Valider les données d'un utilisateur
