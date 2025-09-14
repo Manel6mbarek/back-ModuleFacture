@@ -76,11 +76,10 @@ public class FactureDTO {
             if (facture.getCommande().getClient() != null) {
                 dto.setClientId(facture.getCommande().getClient().getId());
                 dto.setEmailClient(facture.getCommande().getClient().getEmail());
-                // Ajouter d'autres champs client si nécessaire
+
                 // dto.setTelephoneClient(facture.getCommande().getClient().getTelephone());
             }
 
-            // Inclure la commande complète si nécessaire (optionnel)
             // dto.setCommande(CommandeDTO.fromEntity(facture.getCommande()));
         }
 
