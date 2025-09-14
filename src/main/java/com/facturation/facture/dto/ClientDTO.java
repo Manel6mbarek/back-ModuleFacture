@@ -1,14 +1,12 @@
 
-// ============================================
-// ClientDTO spécialisé (optionnel)
-// ============================================
+
 package com.facturation.facture.dto;
 
 import com.facturation.facture.model.User;
 import com.facturation.facture.model.enums.Role;
 
 /**
- * DTO spécialisé pour les clients uniquement
+ * DTO spécialisé pour les clients 
  * Hérite de UserDTO mais force le rôle CLIENT
  */
 public class ClientDTO extends UserDTO {
