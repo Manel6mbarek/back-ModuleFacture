@@ -147,7 +147,7 @@ public class CommandeService {
                         .append(" DT\n");
             }
         }
-        // Vous pouvez stocker cela dans un champ description si il existe
+        
         // facture.setDescriptionProduits(descriptionProduits.toString());
 
         // Copier les montants depuis la commande
@@ -199,7 +199,7 @@ public class CommandeService {
         }
 
         // Changer le statut vers VALIDEE (ou TRAITEE selon votre enum)
-        commande.setStatut(StatutCommande.PAYEE); // Ou TRAITEE si vous avez ce statut
+        commande.setStatut(StatutCommande.PAYEE); // Ou TRAITEE 
         commande.setDateModification(LocalDateTime.now());
         calculerTotauxCommande(commande);
 
