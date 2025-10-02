@@ -464,5 +464,3 @@ com.facturation.facture/
 
 ---
 
-
-**Développé avec ❤️ en Java Spring Boot**
